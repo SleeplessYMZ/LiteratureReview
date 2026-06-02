@@ -19,11 +19,13 @@
 默认抓取从 2026 年 1 月至上一个完整月份的数据：
 
 ```bash
-ruby scripts/fetch_monthly_library.rb
+node scripts/fetch-crossref.mjs
 ```
 
 也可以指定月份范围：
 
 ```bash
-ruby scripts/fetch_monthly_library.rb --from 2026-01 --to 2026-05
+node scripts/fetch-crossref.mjs --from 2026-01 --to 2026-05
 ```
+
+`scripts/fetch_monthly_library.rb` 是同一流程的 Ruby 版本，可作为备用脚本。
