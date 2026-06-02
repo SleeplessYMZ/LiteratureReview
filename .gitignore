@@ -1,0 +1,5 @@
+node_modules
+outputs/
+data/may_2026_articles.json
+data/reading/daily-state.json
+reading/daily/*/pdfs/*.pdf
